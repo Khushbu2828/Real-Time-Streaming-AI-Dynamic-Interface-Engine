@@ -70,10 +70,12 @@ Follow these instructions to run the AI engine locally.
     npm install
     ```
 3. **Configure Environment Variables:**
-Create a .env.local file in the root directory and add your Gemini API Key:
-```Code snippet
-GEMINI_API_KEY=your_actual_api_key_here
+
+   Create a `.env.local` file in the root directory and add your Gemini API Key:
+   ```env
+   GEMINI_API_KEY=your_actual_api_key_here
 ```
 4. **Run the local development server:**
 ```bash
-npm run dev```
+npm run dev
+```
