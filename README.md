@@ -65,12 +65,12 @@ Follow these instructions to run the AI engine locally.
    git clone [https://github.com/yourusername/ai-interface-engine.git](https://github.com/yourusername/ai-interface-engine.git)
    cd ai-interface-engine
 2. **Install dependencies:** 
-``bash
+```bash
 npm install
 3. **Configure Environment Variables:**
 Create a .env.local file in the root directory and add your Gemini API Key:
-``Code snippet
+```Code snippet
 GEMINI_API_KEY=your_actual_api_key_here
 4. **Run the local development server:**
-``bash
+```bash
 npm run dev
